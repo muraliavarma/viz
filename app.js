@@ -11,6 +11,10 @@ function init() {
 }
 
 function animate() {
+	if (ctr > 1000) {
+		ctr = 0;
+		ctx.clearRect(0, 0, 1000, 1000);
+	}
 	ctr ++;
 	ctx.fillStyle = getColor();
 	for (var i = 0; i < parseInt(Math.random() * 10); i ++) {
