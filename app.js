@@ -1,19 +1,19 @@
 var ctx, ctr, color;
 window.onload = function() {
+	ctx = viz.getContext('2d');
 	init();
 }
 
 function init() {
+	ctx.clearRect(0, 0, 1000, 1000);
 	ctr = 0;
 	color = [parseInt(Math.random() * 255), parseInt(Math.random() * 255), parseInt(Math.random() * 255)];
-	ctx = viz.getContext('2d');
 	animate();
 }
 
 function animate() {
 	if (ctr > 1000) {
-		ctr = 0;
-		ctx.clearRect(0, 0, 1000, 1000);
+		init();
 	}
 	ctr ++;
 	ctx.fillStyle = getColor();
