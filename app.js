@@ -13,7 +13,9 @@ function init() {
 function animate() {
 	ctr ++;
 	ctx.fillStyle = getColor();
-	ctx.fillRect(0, 0, 100, 50 + ctr);
+	for (var i = 0; i < parseInt(Math.random() * 10); i ++) {
+		ctx.fillRect(110 * i, 0, 100, 50 + ctr);
+	}
 	window.requestAnimationFrame(animate);
 }
 
