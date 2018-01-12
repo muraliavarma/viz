@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SlotTableCell.vue calls the slot scoped function 1`] = `
+<td>
+  a-b-c
+</td>
+`;
+
+exports[`SlotTableCell.vue outputs the slot 1`] = `
+<td>
+  abc
+</td>
+`;

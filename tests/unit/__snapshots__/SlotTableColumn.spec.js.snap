@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SlotTableColumn.vue has the expected html structure 1`] = `
+<div
+  baz="quux"
+  class="bar"
+/>
+`;

@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SlotTable.vue accepts table class 1`] = `
+<table
+  class="foo"
+>
+  <thead>
+    <tr>
+      <th />
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;
+
+exports[`SlotTable.vue renders correct number of column groups 1`] = `
+<table
+  class=""
+>
+  <thead>
+    <tr>
+      <th />
+    </tr>
+    <tr>
+      <th />
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;
+
+exports[`SlotTable.vue renders correct number of columns 1`] = `
+<table
+  class=""
+>
+  <thead>
+    <tr>
+      <th />
+      <th />
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;
+
+exports[`SlotTable.vue renders correct number of rows 1`] = `
+<table
+  class=""
+>
+  <thead>
+    <tr>
+      <th />
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td />
+    </tr>
+    <tr>
+      <td />
+    </tr>
+    <tr>
+      <td />
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`SlotTable.vue renders header and cells 1`] = `
+<table
+  class=""
+>
+  <thead>
+    <tr>
+      <th>
+        undefined
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        undefined
+      </td>
+    </tr>
+    <tr>
+      <td>
+        undefined
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

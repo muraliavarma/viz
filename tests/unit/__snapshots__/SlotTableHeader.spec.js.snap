@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SlotTableHeader.vue has the expected html structure 1`] = `
+<th
+  baz="quux"
+  class="bar"
+>
+  foo
+</th>
+`;
